@@ -1,0 +1,21 @@
+{
+  "type": "theme",
+  "result": [
+    {
+      "title": "轮播图1",
+      "img": "./static/轮播图1.png"
+    },
+    {
+      "title": "轮播图2",
+      "img": "./static/轮播图2.png"
+    },
+    {
+      "title": "轮播图3",
+      "img": "./static/轮播图3.png"
+    },
+    {
+      "title": "轮播图4",
+      "img": "./static/轮播图4.png"
+    }
+  ]
+}
