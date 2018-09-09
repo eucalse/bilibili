@@ -8,7 +8,8 @@ Vue.use(Vuex)
 const store = new Vuex.Store({
   state: {
     id: '0',
-    name: ''
+    name: '',
+    scrollState: 0
   },
   getter: {
     // video: state => state.video
@@ -16,6 +17,9 @@ const store = new Vuex.Store({
   mutations: {
     passId: function (state, id) {
       state.id = id
+    },
+    passScroll: function (state, scrollTop) {
+      state.scrollState = scrollTop
     }
   },
   actions: {

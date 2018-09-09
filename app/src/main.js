@@ -10,6 +10,7 @@ import store from './store/index'
 import VueResource from 'vue-resource'
 import 'iview/dist/styles/iview.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'jquery'
 
 Vue.prototype.$axios = axios
 Vue.prototype.$api = api

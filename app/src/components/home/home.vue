@@ -11,7 +11,7 @@
       <router-link class="home-nav-item" to="/home/tuijian">推荐</router-link>
       <router-link class="home-nav-item" to="/home/zhuifan">追番</router-link>
     </div>
-      <router-view class="home-pane"></router-view>
+    <router-view></router-view>
   </div>
 </template>
 <script>

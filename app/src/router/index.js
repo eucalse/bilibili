@@ -23,14 +23,20 @@ export default new Router({
           children: [
             {
               path: 'tuijian',
-              component: tuijian
+              name: 'tuijian',
+              component: tuijian,
+              meta: {
+                keepAlive: true
+              }
             },
             {
               path: 'zhuifan',
+              name: 'tuijian',
               component: zhuifan
             },
             {
               path: 'zhibo',
+              name: 'zhibo',
               component: zhibo
             }
           ]
