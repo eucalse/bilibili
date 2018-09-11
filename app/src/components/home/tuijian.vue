@@ -120,7 +120,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .carouselBox {
   height: auto;
   padding: 10px;

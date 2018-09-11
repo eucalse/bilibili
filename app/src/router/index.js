@@ -6,6 +6,7 @@ import zhibo from '../components/home/zhibo'
 import zhuifan from '../components/home/zhuifan'
 import homepage from '../components/homepage'
 import content from '../components/content'
+import search from '../components/search'
 
 Vue.use(Router)
 
@@ -47,6 +48,11 @@ export default new Router({
       path: '/content',
       name: 'content',
       component: content
+    },
+    {
+      path: '/search',
+      name: 'search',
+      component: search
     }
   ]
 })

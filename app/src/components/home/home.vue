@@ -2,7 +2,7 @@
   <div class="home">
     <div class="navBar">
       <img class="nav-user" src="../../../static/头像.png">
-      <img class="nav-search" src="../../../static/search.png">
+      <router-link to="/search"><img class="nav-search" src="../../../static/search.png"></router-link>
       <img class="nav-game" src="../../../static/game.png">
       <img class="nav-message" src="../../../static/message.png">
     </div>
